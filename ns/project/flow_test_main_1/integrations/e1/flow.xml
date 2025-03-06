@@ -8,4 +8,20 @@
 <INVOKE NAME="Date" SERVICE="pub.date:calculateDateDifference">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<BRANCH NAME="IF" LABELEXPRESSIONS="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<SEQUENCE NAME="((%/dateDifferenceSeconds%==%/dateDifferenceMinutes%))" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
+</SEQUENCE>
+</BRANCH>
 </FLOW>
