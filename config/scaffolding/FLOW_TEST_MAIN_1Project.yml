@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Pooja-Anand-IBM-2
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
+services:
+- serviceName: project.flow_test_main_1.integrations:e1
+  packages:
+  - name: FLOW_TEST_MAIN_1Project
+    version: "1.0"
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2039
