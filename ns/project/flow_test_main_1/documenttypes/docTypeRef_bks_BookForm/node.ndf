@@ -10,10 +10,10 @@
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">poan</value>
         <value name="createdByUserId">a3ce0455b9684da8a300dbf2ea395acb</value>
-        <number name="createdDate" type="Long">1741872972830</number>
+        <number name="createdDate" type="Long">1741930811224</number>
         <value name="lastModifiedBy">poan</value>
         <value name="lastModifiedByUserId">a3ce0455b9684da8a300dbf2ea395acb</value>
-        <number name="lastModifiedDate" type="Long">1741872972830</number>
+        <number name="lastModifiedDate" type="Long">1741930811224</number>
       </record>
     </record>
     <value name="is_public">false</value>
@@ -22,8 +22,8 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">3290620b0b5f42e0ae7fcda64e6c36fc</value>
-    <value name="docTypeDomain">5abeb362a62f4201a6968abe9fc3ce65</value>
+    <value name="schemaDomain">5339254757ae479281dab93bfec46859</value>
+    <value name="docTypeDomain">73bcea92fc5b441bb932c839d77541c4</value>
     <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
